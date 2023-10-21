@@ -1,1 +1,179 @@
-<p>mahesh rakh</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facbook Demo</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            height:550px;
+            width: 100%;
+            background-color: white;
+            /* border: 2px solid black; */
+        }
+
+        .data {
+            float: left;
+            height: 595px;
+            width: 55%;
+            /* border: 1px solid red; */
+        }
+        .data2{
+            float: left;
+            height: 595px;
+            width: 45%;
+        }
+
+        .data h1 {
+            float: left;
+            font-family: monospace;
+            color: #0070ff;
+            font-size: 70px;
+            position: relative;
+            top: 150px;
+            left: 70px;
+            font-weight: bolder;
+            font-stretch: normal;
+            word-spacing: normal;
+            letter-spacing: -3px;
+        }
+
+
+        .data h2 {
+            float: left;
+            font-family: sans-serif;
+            color: black;
+            font-size: 31px;
+            text-transform: capitalize;
+            text-align: left;
+            font-weight: normal;
+            margin-top: 104px;
+            margin-left: 71px;
+        }
+
+        .input {
+            float: left;
+            height: 340px;
+            width: 435px;
+            /* border: 1px solid red; */
+            position: relative;
+            top: 151px;
+            left: 20px;
+            border-radius: 11px;
+            border-radius: 11px;
+            box-shadow: 0px 0px 14px -6px black;
+        }
+
+        input {
+            height: 56px;
+            width: 322px;
+            border-radius: 7px;
+            margin-top: 13px;
+            margin-left: 54px;
+            border: 0.5px solid #00000030;
+        }
+
+        .btnlogin {
+            height: 56px;
+            width: 322px;
+            border-radius: 7px;
+            margin-top: 13px;
+            margin-left: 55px;
+            background-color: #0087ff;
+            color: white;
+            border-style: none;
+            font-size: 23px;
+            font-weight: bold;
+        }
+        hr{
+            color: #00000029;
+        }
+
+        p {
+            font-family: sans-serif;
+            color: #0087ff;
+            font-size: 17px;
+            position: relative;
+            top: -5px;
+            left: 148px;
+        }
+
+        .btnnewac {
+            height: 56px;
+            width: 220px;
+            border-radius: 7px;
+            margin-top: 0px;
+            margin-left: 106px;
+            background-color:green;
+            color: white;
+            border-style: none;
+            font-size: 19px;
+            font-weight: bold;
+        }
+        @media(max-width:412px){
+            .data{
+                float: left;
+                width: 100%;
+                height: 250px;
+                display: block;
+                /* background-color: cyan; */
+            }
+            .data2{
+                position: relative;
+                top: 0px;
+                left: 5px;
+            height: 600px;                
+                float: left;
+                width: 100%;
+                /* background-color: yellow; */
+            }
+            .data h1{
+                position: relative;
+                top: 10px;
+                left: 52px;
+            }
+            .data h2{
+                margin-top: -25px;
+                /* margin-left:40px ;   */
+                line-height: 50px;
+            }
+           .input{
+            /* height: 300px; */
+            position: relative;
+            top: 100px;
+            left:18px;
+           }
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="data">
+        <h1>facebook</h1>
+        <h2>Facebook helps you connect and share with the people in your life.</h2>
+    </div>
+
+
+
+<div class="data2">
+    <div class="input">
+        <input type="text" placeholder="  Email address or phone number">
+        <input type="text" placeholder="  Password">
+        <button class="btnlogin">Log in</button>
+        <p>Forgotten password?</p>
+        <hr>
+        <button class="btnnewac">Create new account</button>
+    </div>
+</div>
+</body>
+</html>
